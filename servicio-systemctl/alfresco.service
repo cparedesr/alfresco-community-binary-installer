@@ -1,0 +1,14 @@
+[Unit]
+Description=Alfresco Application Services
+After=network.target
+
+[Service]
+Type=forking
+User=intidev
+WorkingDirectory=/opt/alfresco
+ExecStart=/bin/bash /opt/alfresco/alfresco.sh start
+ExecStop=/bin/bash /opt/alfresco/alfresco.sh stop
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
