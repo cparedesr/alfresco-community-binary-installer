@@ -1,4 +1,4 @@
-# Alfresco Community 
+# Alfresco Community Binary Installer
 El repositorio tiene como objetivo proporcionar un instalador práctico y sencillo basado en la documentación oficial de Alfresco. Su propósito es automatizar una instalación basada en la distribución ZIP, empaquetándola en un instalador binario.
 
 Este instalador es compatible exclusivamente con distribuciones de Linux que utilicen la arquitectura AMD64 (x86_64).
