@@ -1,5 +1,5 @@
 # Alfresco Community Binary Installer
-El repositorio tiene como objetivo proporcionar un instalador práctico y sencillo basado en la documentación oficial de Alfresco. Su propósito es automatizar una instalación basada en la distribución ZIP, empaquetándola en un instalador binario.
+El repositorio tiene como objetivo proporcionar un instalador práctico y sencillo basado en la documentación oficial de Alfresco. Su propósito es automatizar una instalación basada en la distribución ZIP, empaquetándola en un instalador binario. Para su instalación, no se necesita conexión a internet.
 
 Este instalador es compatible exclusivamente con distribuciones de Linux que utilicen la arquitectura AMD64 (x86_64).
 
@@ -115,6 +115,7 @@ Alfresco Transform Core AIO:
     $INSTALL_DIR/ats/transform-service.sh
 
 ### Bibliografía
+
 https://nexus.alfresco.com/nexus/
 https://docs.alfresco.com/content-services/community/install/zip/
 https://docs.alfresco.com/search-services/latest/
